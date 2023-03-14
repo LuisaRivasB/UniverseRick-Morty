@@ -2,9 +2,17 @@
     border-radius: 0.8em;
     background-color: #062226;
     overflow: hidden;
+    height: 40rem;
+    width: 25rem;
+    display: inline-block;
+    gap:3rem;
+    align-items: center;
+    margin:0.5rem;
+    
 }
 .header-card {
     position: relative;
+    font-size:30px;
 }
 .container-circle {
     display: flex;

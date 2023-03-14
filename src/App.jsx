@@ -30,11 +30,13 @@ function App() {
     
   return (
     <div className="app">
+      <div className= 'container'>
         <h1 className='tittle'>Rick and Morty</h1>
         <form className='form' onSubmit={handleSubmit}>
             <input className='form-input' id='inputLocation' type="text" />
             <button className='form-btn'>Search</button>
         </form>
+        </div>
         {
             hasError ?
               <h2 className='error'>Hey! you must provide an is from 1 to 126</h2>
@@ -46,7 +48,7 @@ function App() {
                           location?.residents.map(url => (
                               <ResidentInfo
                                   key={url}
-                                  url={url }
+                                  url={url}
                               />
                           ))
                       }
