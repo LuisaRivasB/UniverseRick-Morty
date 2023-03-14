@@ -1,0 +1,46 @@
+.app {
+    padding: 2.5em 2em;
+}
+.tittle {
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+.form {
+    display: flex;
+    justify-content: center;
+    height: 2em;
+    margin-bottom: 3em;
+}
+.form-input {
+    width: 100%;
+    max-width: 200px;
+    padding-left: 1em;
+    border-radius: 8px 0 0 8px;
+}
+.form-btn {
+    width: 90px;
+    border-radius: 0 8px 8px 0;
+    background-color: rgb(113,160, 25);
+    color: white;
+    font-wheight: 500;
+    transition: font-weight 150ms case, filter 150ms case;
+    cursor: pointer;
+}
+.form-btn:hover {
+    font-weight: 700;
+    filter: brightness(1.1);
+}
+.error {
+    text-align: center;
+    line-heigth: 1.8;
+    font-weight: 400;
+}
+.residents-container {
+    display: flex;
+    gap: 2em;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
