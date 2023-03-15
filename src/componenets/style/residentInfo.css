@@ -2,13 +2,6 @@
     border-radius: 0.8em;
     background-color: #062226;
     overflow: hidden;
-    height: 40rem;
-    width: 25rem;
-    display: inline-block;
-    gap:3rem;
-    align-items: center;
-    margin:0.5rem;
-    
 }
 .header-card {
     position: relative;
@@ -21,7 +14,7 @@
     position: absolute;
     top: 1em;
     width: 9em;
-    padding: 0.25em 0 0.25em 0.5em; 
+    padding: 0.25em 0 0.25em 0.5em;
     background-color: #062226;
     border-radius: 0 0.25em 0.25em 0;
 }

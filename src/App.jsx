@@ -30,7 +30,11 @@ function App() {
     
   return (
     <div className="app">
+<<<<<<< HEAD
       <div className= 'container'>
+=======
+      <div className="container">
+>>>>>>> 83c9df19cad9046f58b0d3a519d403a47d552875
         <h1 className='tittle'>Rick and Morty</h1>
         <form className='form' onSubmit={handleSubmit}>
             <input className='form-input' id='inputLocation' type="text" />
