@@ -8,7 +8,10 @@
     gap:3rem;
     align-items: center;
     margin:0.5rem;
+<<<<<<< HEAD
     
+=======
+>>>>>>> b475cf71985f6741ba846b767e6fafd7ffadaf11
 }
 .header-card {
     position: relative;
@@ -21,7 +24,7 @@
     position: absolute;
     top: 1em;
     width: 9em;
-    padding: 0.25em 0 0.25em 0.5em; 
+    padding: 0.25em 0 0.25em 0.5em;
     background-color: #062226;
     border-radius: 0 0.25em 0.25em 0;
 }
