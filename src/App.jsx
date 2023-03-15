@@ -30,6 +30,7 @@ function App() {
     
   return (
     <div className="app">
+      <div className= 'container'>
       <div className="container">
         <h1 className='tittle'>Rick and Morty</h1>
         <form className='form' onSubmit={handleSubmit}>
@@ -48,7 +49,7 @@ function App() {
                           location?.residents.map(url => (
                               <ResidentInfo
                                   key={url}
-                                  url={url }
+                                  url={url}
                               />
                           ))
                       }
@@ -56,7 +57,8 @@ function App() {
               </>
         }
     </div>
+  </div> 
   )
-}
+};
 
 export default App

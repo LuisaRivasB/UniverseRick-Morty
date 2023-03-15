@@ -9,6 +9,10 @@
     border-radius: 0.8em;
     background-image: url(./src/assets/fond-location.jpg);
     background-position: 25%;
+<<<<<<< HEAD
+
+=======
+>>>>>>> b475cf71985f6741ba846b767e6fafd7ffadaf11
 }
 .location-name{
     text-align: center;
@@ -26,7 +30,7 @@
     gap: 0.3em;
     text-align: center;
     font-weight: 300;
-    color: #aaaa;
+    color: #B8CEAB ;
 }
 .location-label {
     font-weight: 700;
