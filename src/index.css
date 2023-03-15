@@ -38,17 +38,7 @@ buttom {
 footer {
   display: flex;
   justify-content: space-around;
-  font-size: 2rem;
-  text-align: center;
-  background: linear-gradient(#890ff5, red, #58f50f);
-  -webkit-background-clip: text;
-  color: transparent;
-}
-
-footer {
-  display: flex;
-  justify-content: space-around;
-  font-size: 2rem;
+  font-size: 1rem;
   text-align: center;
   background: linear-gradient(#890ff5, red, #58f50f);
   -webkit-background-clip: text;
