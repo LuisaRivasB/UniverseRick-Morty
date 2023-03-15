@@ -1,20 +1,33 @@
 .app {
     padding: 2.5em 2em;
 }
+.container{
+    background-image: url(./src/assets/fondo.jpg) ;
+    background-position:0px -40px;
+    background-size: 100%;
+}
 .tittle {
     text-align: center;
-    margin-bottom: 0.5em;
+    margin-bottom: 9.5em;
+    position: relative;
+    top:-45px;
+    font-size:2.5rem;
+    background: linear-gradient(yellow,red);
+    -webkit-background-clip: text;
+    color: transparent;
 }
 .form {
     display: flex;
     justify-content: center;
-    height: 2em;
-    margin-bottom: 3em;
+    height: 2rem;
+    margin-bottom: 1rem;
+    position: relative;
+    top:-40px;
 }
 .form-input {
     width: 100%;
     max-width: 200px;
-    padding-left: 1em;
+    padding-left: -30em;
     border-radius: 8px 0 0 8px;
 }
 .form-btn {
@@ -22,7 +35,7 @@
     border-radius: 0 8px 8px 0;
     background-color: rgb(113,160, 25);
     color: white;
-    font-wheight: 500;
+    font-wheight: 500px;
     transition: font-weight 150ms case, filter 150ms case;
     cursor: pointer;
 }
@@ -34,7 +47,11 @@
     text-align: center;
     line-heigth: 1.8;
     font-weight: 400;
-}
+    font-size:3rem;
+    background: linear-gradient(#62FF08,#759364 );
+    -webkit-background-clip: text;
+    color: transparent;
+}#F70606
 .residents-container {
     display: flex;
     gap: 2em;
