@@ -31,6 +31,7 @@ function App() {
   return (
     <div className="app">
       <div className= 'container'>
+      <div className="container">
         <h1 className='tittle'>Rick and Morty</h1>
         <form className='form' onSubmit={handleSubmit}>
             <input className='form-input' id='inputLocation' type="text" />
@@ -56,7 +57,8 @@ function App() {
               </>
         }
     </div>
+  </div> 
   )
-}
+};
 
 export default App
