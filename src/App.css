@@ -2,9 +2,9 @@
     padding: 2.5em 2em;
 }
 .container{
-    background-image: url(./src/assets/fondo.jpg) ;
+    background-image: url(./src/assets/fondo.jpg)  ;
+    background-size:cover;
     background-position:0px -40px;
-    background-size: 100%;
 }
 .tittle {
     text-align: center;
@@ -15,6 +15,9 @@
     background: linear-gradient(yellow,red);
     -webkit-background-clip: text;
     color: transparent;
+    animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
 }
 .form {
     display: flex;
@@ -43,6 +46,25 @@
     font-weight: 700;
     filter: brightness(1.1);
 }
+@keyframes rotate {from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}}
+@-webkit-keyframes rotate {from {-webkit-transform: rotate(0deg);}
+  to {-webkit-transform: rotate(360deg);}}
+.img{
+    -webkit-animation: 3s rotate linear infinite;
+    animation: 5s rotate linear infinite;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+}
+.img{
+    background-image: url(./src/assets/notExist.jpg);
+    width:300px;
+    height:300px;
+    border-radius:150px;
+    background-size:cover;
+    background-position:0px -110px;
+    margin: 0 auto;
+}
 .error {
     text-align: center;
     line-heigth: 1.8;
@@ -51,7 +73,7 @@
     background: linear-gradient(#62FF08,#759364 );
     -webkit-background-clip: text;
     color: transparent;
-}#F70606
+}
 .residents-container {
     display: flex;
     gap: 2em;
