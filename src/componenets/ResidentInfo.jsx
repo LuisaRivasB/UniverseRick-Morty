@@ -10,7 +10,7 @@ const ResidentInfo = ({ url }) => {
         .catch(err => console.log(err))
     }, [])
 
-
+    
   return (
     <article className='card'>
         <header className='header-card'>
@@ -38,6 +38,7 @@ const ResidentInfo = ({ url }) => {
                 </li>
             </ul>
         </section>
+   
     </article>
   )
 }

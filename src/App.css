@@ -7,17 +7,23 @@
     background-position:0px -40px;
 }
 .tittle {
-    text-align: center;
-    margin-bottom: 9.5em;
-    position: relative;
-    top:-45px;
-    font-size:2.5rem;
-    background: linear-gradient(yellow,red);
-    -webkit-background-clip: text;
-    color: transparent;
-    animation-duration: 3s;
+  text-align: center;
+  margin-bottom: 9.5em;
+  position: relative;
+  top:-45px;
+  font-size:42px;
+  background: linear-gradient(yellow,red);
+  -webkit-background-clip: text;
+  color: transparent;
+  animation-duration: 3s;
   animation-name: slidein;
   animation-iteration-count: infinite;
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -ms-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
 }
 .form {
     display: flex;
@@ -32,31 +38,44 @@
     max-width: 200px;
     padding-left: -30em;
     border-radius: 8px 0 0 8px;
+    -webkit-border-radius: 8px 0 0 8px;
+    -moz-border-radius: 8px 0 0 8px;
+    -ms-border-radius: 8px 0 0 8px;
+    -o-border-radius: 8px 0 0 8px;
 }
 .form-btn {
     width: 90px;
     border-radius: 0 8px 8px 0;
     background-color: rgb(113,160, 25);
     color: white;
-    font-wheight: 500px;
+    font-weight: 500px;
     transition: font-weight 150ms case, filter 150ms case;
     cursor: pointer;
+    -webkit-border-radius: 0 8px 8px 0;
+    -moz-border-radius: 0 8px 8px 0;
+    -ms-border-radius: 0 8px 8px 0;
+    -o-border-radius: 0 8px 8px 0;
+    -webkit-transition: font-weight 150ms case, filter 150ms case;
+    -moz-transition: font-weight 150ms case, filter 150ms case;
+    -ms-transition: font-weight 150ms case, filter 150ms case;
+    -o-transition: font-weight 150ms case, filter 150ms case;
 }
 .form-btn:hover {
     font-weight: 700;
     filter: brightness(1.1);
+    -webkit-filter: brightness(1.1);
 }
-@keyframes rotate {from {transform: rotate(0deg);}
-    to {transform: rotate(360deg);}}
+@keyframes rotate {from { transform: rotate(0deg); -webkit-transform:; -moz-transform:; -ms-transform:; -o-transform:; }
+    to { transform: rotate(360deg); -webkit-transform: rotate(360deg); -moz-transform: rotate(360deg); -ms-transform: rotate(360deg); -o-transform: rotate(360deg); }}
 @-webkit-keyframes rotate {from {-webkit-transform: rotate(0deg);}
   to {-webkit-transform: rotate(360deg);}}
-.img{
-    -webkit-animation: 3s rotate linear infinite;
+.img {
+    -webkit-animation: 5s rotate linear infinite;
     animation: 5s rotate linear infinite;
     -webkit-transform-origin: 50% 50%;
-    transform-origin: 50% 50%;
+    transform-origin: 50% 50%;    
 }
-.img{
+.img {
     background-image: url(./src/assets/notExist.jpg);
     width:300px;
     height:300px;
@@ -64,10 +83,14 @@
     background-size:cover;
     background-position:0px -110px;
     margin: 0 auto;
+    -webkit-border-radius:150px;
+    -moz-border-radius:150px;
+    -ms-border-radius:150px;
+    -o-border-radius:150px;
 }
 .error {
     text-align: center;
-    line-heigth: 1.8;
+    line-height: 1.8;
     font-weight: 400;
     font-size:3rem;
     background: linear-gradient(#62FF08,#759364 );
