@@ -7,7 +7,7 @@
     margin-left: auto;
     margin-right: auto;
     border-radius: 0.8em;
-    background-image: url(./public/fond-location.jpg);
+    background-image: url("/fond-location.jpg");
     background-position: 25%;
 }
 .location-name{
