@@ -2,7 +2,7 @@
     padding: 2.5em 2em;
 }
 .container{
-    background-image: url(./src/assets/fondo.jpg)  ;
+    background-image: url(./public/fondo.jpg)  ;
     background-size:cover;
     background-position:0px -40px;
 }
@@ -57,7 +57,7 @@
     transform-origin: 50% 50%;
 }
 .img{
-    background-image: url(./src/assets/notExist.jpg);
+    background-image: url(./public/notExist.jpg);
     width:300px;
     height:300px;
     border-radius:150px;
