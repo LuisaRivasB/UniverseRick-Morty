@@ -1,6 +1,12 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 .card {
     border-radius: 0.8em;
-    background-color: #062226;
+    background-color: rgba(13, 72, 82, 0.3);
+    border: solid 2px rgb(29, 130, 148);
     overflow: hidden;
     height: 40rem;
     width: 25rem;
@@ -8,7 +14,27 @@
     gap:3rem;
     align-items: center;
     margin:0.5rem;
+    box-shadow: 0px 0px 50px rgb(85, 207, 226);
+    -webkit-border-radius: 0.8em;
+    -moz-border-radius: 0.8em;
+    -ms-border-radius: 0.8em;
+    -o-border-radius: 0.8em;
+    position: relative;
 }
+.card:hover {
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}
+/* .puntero {
+    background-color: red;
+    position: absolute;
+    top: opx;
+    left: 0px;
+    
+} */
 .header-card {
     position: relative;
     font-size:30px;
@@ -23,6 +49,10 @@
     padding: 0.25em 0 0.25em 0.5em;
     background-color: #062226;
     border-radius: 0 0.25em 0.25em 0;
+    -webkit-border-radius: 0 0.25em 0.25em 0;
+    -moz-border-radius: 0 0.25em 0.25em 0;
+    -ms-border-radius: 0 0.25em 0.25em 0;
+    -o-border-radius: 0 0.25em 0.25em 0;
 }
 .circle {
     display: block;
@@ -30,6 +60,11 @@
     aspect-ratio: 1;
     border-radius: 50%;
     background-color: #096994;
+    box-shadow: 2px 2px 12px white;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
 }
 .card-body {
     padding: 1.5em 1.8em 2em;
