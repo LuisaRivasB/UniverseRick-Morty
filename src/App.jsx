@@ -32,8 +32,9 @@ function App() {
   return (
     <div className="app">
       <div className="container">
-        <div className="container">
+        <div className="container-img">
           <h1 className="tittle">Rick and Morty</h1>
+          <img src="./fondo.jpg" alt="" />
           <form className="form" onSubmit={handleSubmit}>
             <input className="form-input" id="inputLocation" type="text" />
             <button className="form-btn">Search</button>
