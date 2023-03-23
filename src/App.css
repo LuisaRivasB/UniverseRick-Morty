@@ -15,7 +15,7 @@
     padding: 1.5em 0em ;
     width: 90vw;
     max-width: 1200px;
-    min-width: 320x;
+    min-width: 320px;
     justify-content: center;
     align-content: center;
     margin-left: auto;
@@ -25,7 +25,6 @@
     width: 100%;
     box-shadow: 0px 0px 20px rgb(50, 204, 224);
     border-radius: 5px 5px;
-    
 }
 .tittle {
   text-align: center;
@@ -97,9 +96,6 @@
     -webkit-transform-origin: 50% 50%;
     transform-origin: 50% 50%;    
 }
-.img {
-    background-image: url(./src/assets/notExist.jpg);
-    }
 .img{
     background-image: url("./notExist.jpg");
     width:300px;
