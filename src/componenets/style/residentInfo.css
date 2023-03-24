@@ -9,9 +9,7 @@
     border: solid 2px rgb(29, 130, 148);
     overflow: hidden;
     height: 40rem;
-    max-width: 25rem;
-    min-width: 250px;
-    min-height: 300px;
+    width: 25rem;
     display: inline-block;
     gap:3rem;
     align-items: center;
@@ -30,6 +28,13 @@
     -ms-transform: scale(1.05);
     -o-transform: scale(1.05);
 }
+/* .puntero {
+    background-color: red;
+    position: absolute;
+    top: opx;
+    left: 0px;
+    
+} */
 .header-card {
     position: relative;
     font-size:30px;
@@ -68,7 +73,7 @@
     text-align: center;
     margin-bottom: 0.8em;
 }
-.card-hr {
+.card-hr{
     border: none;
     border-top: 1.5px solid #aaa4;
     margin-bottom: 0.5em;
