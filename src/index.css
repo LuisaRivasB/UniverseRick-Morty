@@ -2,6 +2,7 @@
 
 /*  **        RESET       ** */
 * {
+
   box-sizing: border-box;
 }
 body {
@@ -37,11 +38,25 @@ buttom {
   font-family: inherit;
 }
 footer {
+  width: 90%;
+  max-width: 1200px;
+  min-width: 320px;
+  margin: auto;
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   font-size: 1rem;
   text-align: center;
   background: linear-gradient(#890ff5, red, #58f50f);
+  background-clip:inherit;
   -webkit-background-clip: text;
   color: transparent;
+}
+.integrants{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
 }

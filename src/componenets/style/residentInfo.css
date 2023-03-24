@@ -8,12 +8,14 @@
     background-color: rgba(13, 72, 82, 0.3);
     border: solid 2px rgb(29, 130, 148);
     overflow: hidden;
-    height: 40rem;
-    width: 25rem;
+    height: 600px;
+    width: 290px;
     display: inline-block;
-    gap:3rem;
+    gap:1.5rem;
+    margin-top: 20px;
+    margin-left: -15px;
+    justify-content: center;
     align-items: center;
-    margin:0.5rem;
     box-shadow: 0px 0px 50px rgb(85, 207, 226);
     -webkit-border-radius: 0.8em;
     -moz-border-radius: 0.8em;
@@ -28,13 +30,6 @@
     -ms-transform: scale(1.05);
     -o-transform: scale(1.05);
 }
-/* .puntero {
-    background-color: red;
-    position: absolute;
-    top: opx;
-    left: 0px;
-    
-} */
 .header-card {
     position: relative;
     font-size:30px;

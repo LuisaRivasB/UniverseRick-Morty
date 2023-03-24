@@ -31,14 +31,15 @@ function App() {
 
   return (
     <div className="app">
+      <h1 className="tittle">Rick and Morty</h1>
       <div className="container">
-        <div className="container">
-          <h1 className="tittle">Rick and Morty</h1>
-          <form className="form" onSubmit={handleSubmit}>
-            <input className="form-input" id="inputLocation" type="text" />
-            <button className="form-btn">Search</button>
-          </form>
+        <div className="img__container">
+          <img src="./fondo.jpg" alt="" />
         </div>
+        <form className="form" onSubmit={handleSubmit}>
+          <input className="form-input" id="inputLocation" type="text" />
+          <button className="form-btn">Search</button>
+        </form>
       </div>
       {hasError ? (
         <>
